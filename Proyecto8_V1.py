@@ -22,10 +22,10 @@ import pandas as pd
 get_ipython().run_line_magic('matplotlib', 'inline')
 import matplotlib.pyplot as plt
 
-
-detections = pd.read_pickle('C:/Users/sebas/Desktop/Ingenieria/8 semestre/Inteligencia Computacional/proyecto/data_representativity/detections_664k.pkl')
-features = pd.read_pickle('C:/Users/sebas/Desktop/Ingenieria/8 semestre/Inteligencia Computacional/proyecto/data_representativity/features_664k.pkl')
-labels = pd.read_pickle('C:/Users/sebas/Desktop/Ingenieria/8 semestre/Inteligencia Computacional/proyecto/data_representativity/labels.pkl')
+#escribir la dirección donde se guardo las bases de datos:
+detections = pd.read_pickle('')
+features = pd.read_pickle('')
+labels = pd.read_pickle('')
 
 print(detections.head())
 print(labels.head())
